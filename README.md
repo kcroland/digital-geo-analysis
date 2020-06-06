@@ -4,6 +4,22 @@ _This essay was created for GEOG 458 with Bo Zhao at the University of Washingto
 
 ## Table of Contents
 
+  - [Introduction](#img-srciconspngbookpng-altbook--introduction)
+  - [System Architecture](#img-srciconspng003-database-storagepng-altdatabase--system-architecture)
+      - [Potential Data Flow](#potential-data-flow)
+  - [Project Internals](#img-srciconspng001-codingpng-altcode--project-internals)
+      - [Client & Server Communication](#client--server-communication)
+  - [Data Sources / Thematic Layers](#img-srciconspng004-folderpng-altfolder--data-sources--thematic-layers)
+      - [Coronavirus](#coronavirus--)
+      - [Air Traffic and Flight Waves ](#air-traffic-and-flight-waves--)
+  - [Project Externals](#img-srciconspng002-mappng-altmap--project-externals)
+    - [Elements](#elements)
+    - [Features](#features)
+  - [Analysis](#img-srciconspng006-loupepng-altmagnifying-glass--analysis)
+    - [Strengths and Weaknesses](#strengths-and-weaknesses)
+    - [Final Thoughts](#final-thoughts)
+  - [Attributions and References](#attributions-and-references)
+
 ---
 
 ## ![book](icons/png/book.png) &nbsp; Introduction
@@ -108,7 +124,7 @@ This data in the table below relating to the COVID-19 virus comes from the follo
 | Ncov Cases Death| COVID-19 deaths based on state, province, region, or territory       | Point |
 | Ncov Cases Confirmed | COVID-19 confirmed cases based on state, province, region, or territory        | Point    |
 | Ncov Cases By Country  | COVID-19 confirmed cases by country        | Point    |
-| RegionCases3D 9missing draft | 3d rendering of COVID-19 cases by region       | Polygon    |
+| RegionCases3D 9missing draft | 3D rendering of COVID-19 cases by region       | Polygon    |
 
 #### Air Traffic and Flight Waves -
 This next table of data includes route analysis information that comes from **ICAO Gilbert Lasnier**, the map's author. All data is in vector format.
@@ -183,7 +199,7 @@ The above image lists all of the different features that this map has to offer:
 
 ## ![magnifying glass](icons/png/006-loupe.png) &nbsp; Analysis
 
-In the final section of this essay I will discuss my overall thought about the digital geography project.
+In the final section of this essay I will discuss my overall thoughts about the digital geography project.
 
 ### Strengths and Weaknesses
 
@@ -212,6 +228,7 @@ The map at times can be unintuitive and tough to understand. While this map seem
 **In Comparison -**
 ICAO had also made a dashboard that relays the same information about COVID-19 and air traffic as this 3D web map. This allows for a great opportunity to compare the two different perspectives to understand how they each portray the same information and how each one speaks differently about it or sends a different message.
 
+&nbsp;
 ![Coronavirus dashboard](imgs/dash.jpg)
 
 ---
