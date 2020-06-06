@@ -4,25 +4,25 @@ _This essay was created for GEOG 458 with Bo Zhao at the University of Washingto
 
 ## Table of Contents
 
-  - [Introduction](#img-srciconspngbookpng-altbook--introduction)
-  - [System Architecture](#img-srciconspng003-database-storagepng-altdatabase--system-architecture)
+  - [Introduction](#intro)
+  - [System Architecture](#sa)
       - [Potential Data Flow](#potential-data-flow)
-  - [Project Internals](#img-srciconspng001-codingpng-altcode--project-internals)
+  - [Project Internals](#pi)
       - [Client & Server Communication](#client--server-communication)
-  - [Data Sources / Thematic Layers](#img-srciconspng004-folderpng-altfolder--data-sources--thematic-layers)
+  - [Data Sources / Thematic Layers](#ds)
       - [Coronavirus](#coronavirus--)
       - [Air Traffic and Flight Waves ](#air-traffic-and-flight-waves--)
-  - [Project Externals](#img-srciconspng002-mappng-altmap--project-externals)
+  - [Project Externals](#pe)
     - [Elements](#elements)
     - [Features](#features)
-  - [Analysis](#img-srciconspng006-loupepng-altmagnifying-glass--analysis)
+  - [Analysis](#analysis)
     - [Strengths and Weaknesses](#strengths-and-weaknesses)
     - [Final Thoughts](#final-thoughts)
   - [Attributions and References](#attributions-and-references)
 
 ---
 
-## ![book](icons/png/book.png) &nbsp; Introduction
+## ![book](icons/png/book.png) &nbsp; Introduction <a id="intro"></a>
 
 The following essay will be an analysis on a digital geography project. Following this introduction there are several sections that include information on the map internal and externals, data used, system architecture, and final thoughts on the strengths, weaknesses, and other aspects of the map. This web map, _ICAO Coronavirus 3DFX dispersion_ was made by **Gilbert Lasnier**, an aeronautical GIS officer at the International Civil Aviation Organization (ICAO).
 > The [ICAO](https://www.icao.int/about-icao/Pages/default.aspx) is an agency that focuses on the planning and development of international air transport. The group works with UN members to enact policies in support of a safe, efficient, secure, economically sustainable and environmentally responsible civil aviation sector.
@@ -37,7 +37,7 @@ The goal of this web map is to display COVID-19 data in a novel way through the 
 
 &nbsp;
 
-## ![database](icons/png/003-database-storage.png) &nbsp; System Architecture
+## ![database](icons/png/003-database-storage.png) &nbsp; System Architecture <a id="sa"></a>
 
 &nbsp;
 ![system architecture](imgs/sa.jpg)
@@ -61,7 +61,7 @@ The flow of data might be _something_ like the following: The map creators (ICAO
 
 &nbsp;
 
-## ![code](icons/png/001-coding.png) &nbsp; Project Internals
+## ![code](icons/png/001-coding.png) &nbsp; Project Internals <a id="pi"></a>
 
 #### Client & Server Communication
 
@@ -112,7 +112,7 @@ The code for this project is not natively built with HTML, CSS, and Javascript, 
 
 &nbsp;
 
-## ![folder](icons/png/004-folder.png) &nbsp; Data Sources / Thematic Layers
+## ![folder](icons/png/004-folder.png) &nbsp; Data Sources / Thematic Layers <a id="ds"></a>
 
 All data layers and and metadata can be found on the  [web map overview](https://icao.maps.arcgis.com/home/item.html?id=bf1ef9f8d9a748e0ab77c5591b24102e) on ICAO's ArcGIS Online account. _Note that this links to the web scene version of the web mapping application discussed in this essay._
 
@@ -157,7 +157,7 @@ This next table of data includes route analysis information that comes from **IC
 
 &nbsp;
 
-## ![map](icons/png/002-map.png) &nbsp; Project Externals
+## ![map](icons/png/002-map.png) &nbsp; Project Externals <a id="pe"></a>
 
 ### Elements
 
@@ -182,6 +182,7 @@ The above image lists all of the different features that this map has to offer:
 
   &nbsp;
    ![traffic](imgs/gifs/flights.gif)
+
   &nbsp;
 
   - The next three features show cases around the world though a red bubble-like map that pulses so that smaller circles can be seen behind the larger circles. As well as 3D cylinders which has a height relative to the number of cases.
@@ -197,7 +198,7 @@ The above image lists all of the different features that this map has to offer:
 
 &nbsp;
 
-## ![magnifying glass](icons/png/006-loupe.png) &nbsp; Analysis
+## ![magnifying glass](icons/png/006-loupe.png) &nbsp; Analysis <a id="analysis"></a>
 
 In the final section of this essay I will discuss my overall thoughts about the digital geography project.
 
