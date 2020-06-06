@@ -8,9 +8,7 @@ _This essay was created for GEOG 458 with Bo Zhao at the University of Washingto
 
 ## ![book](icons/png/book.png) &nbsp; Introduction
 
-The following essay will be an analysis on a digital geography project. Following this introduction there are several sections that include information on the map internal and externals, data used, system architecture, and final thoughts on the strengths, weaknesses, and other aspects of the map.
-
-This web map, _ICAO Coronavirus 3DFX dispersion_ was made by **Gilbert Lasnier**, an aeronautical GIS officer at the International Civil Aviation Organization (ICAO).
+The following essay will be an analysis on a digital geography project. Following this introduction there are several sections that include information on the map internal and externals, data used, system architecture, and final thoughts on the strengths, weaknesses, and other aspects of the map. This web map, _ICAO Coronavirus 3DFX dispersion_ was made by **Gilbert Lasnier**, an aeronautical GIS officer at the International Civil Aviation Organization (ICAO).
 > The [ICAO](https://www.icao.int/about-icao/Pages/default.aspx) is an agency that focuses on the planning and development of international air transport. The group works with UN members to enact policies in support of a safe, efficient, secure, economically sustainable and environmentally responsible civil aviation sector.
 
 
