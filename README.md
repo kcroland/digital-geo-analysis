@@ -197,7 +197,7 @@ In the final section of this essay I will discuss my overall thought about the d
 
 #### Weaknesses:
 
-- **Technical Limitations** When attempting to view some of the layers that have a high number of points,they may only be partially drawn (ex. mov2018 data) because of limitations on number of features and symbol complexity that can be displayed on the map.
+- **Technical Limitations -** When attempting to view some of the layers that have a high number of points,they may only be partially drawn (ex. mov2018 data) because of limitations on number of features and symbol complexity that can be displayed on the map.
 
 - **Undescriptive Layers -** Several of the layers have very unintuitive names such as _"mov2018 wcountry 4016"_ and aren't described at all in the web application, overview in ArcGIS Online, or the metadata. This causes the users to have to guess at the representation of the data or do research just to figure out what it is.
 
@@ -209,7 +209,7 @@ In the final section of this essay I will discuss my overall thought about the d
 This project is unique and provides a new perspective to building data that has been visualized by many different groups. It's greatest asset, 3D visualization is also one of this project's greatest weaknesses. That is, this sort of visualization is much more taxing on the devices that it is being run on compared to a 2D visual. Even while exploring the map, my computer had froze while trying to load some of the resources and I was no longer able to do any interactions. Thus the accessibility of this application is more limited than it might otherwise be. Seeming to be in a constant state of loading, I explored the globe for the first time, clicking floating points and nothing happening. Later I came back to the map and clicked on one of the points to be shown a popup with attribute data.
 
 **The Audience -**
-The map at times can be unintuitive. This map seems to be directed at a general audience, those who want to educate themselves about the statistics of the current epidemic. To those users that aren't as familiar with using ESRI software, it may be difficult to understand the information that the map is trying to display. Perhaps a persistent legend on the left side of the screen could present the three main pieces of data, cases, deaths, and recovered.
+The map at times can be unintuitive and tough to understand. While this map seems to be directed at a general audience, they may have a hard time understanding the information that the map is trying to display. Many symbols and number leaves the initial map to rely on assumptions by about the user's skills. Perhaps a persistent legend on the left side of the screen could present the three main pieces of data, cases, deaths, and recovered.
 
 **In Comparison -**
 ICAO had also made a dashboard that relays the same information about COVID-19 and air traffic as this 3D web map. This allows for a great opportunity to compare the two different perspectives to understand how they each portray the same information and how each one speaks differently about it or sends a different message.
