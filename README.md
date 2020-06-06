@@ -190,8 +190,11 @@ The above image lists all of the different features that this map has to offer:
   &nbsp;
 
   ![cases bubbles](imgs/gifs/bubbles.gif)
+
   &nbsp;
+
   ![cases cylinders](imgs/gifs/cyl.gif)
+
   &nbsp;
 
 - The last four features don't seem to be as insightful as the aformentioned. These include **measurement** to determine the distance between two locations, **daylight** which is a neat feature that allows the user to change the direction that the light is hitting the globe and shadows are cast (though unnecessary), **share** which provides the link for embedding or sharing this map directly, and finally a **basemap gallery** to change the basemap.
@@ -215,8 +218,6 @@ In the final section of this essay I will discuss my overall thoughts about the 
 - **Technical Limitations -** When attempting to view some of the layers that have a high number of points,they may only be partially drawn (ex. mov2018 data) because of limitations on number of features and symbol complexity that can be displayed on the map.
 
 - **Undescriptive Layers -** Several of the layers have very unintuitive names such as _"mov2018 wcountry 4016"_ and aren't described at all in the web application, overview in ArcGIS Online, or the metadata. This causes the users to have to guess at the representation of the data or do research just to figure out what it is.
-
-&nbsp;
 
 ### Final Thoughts
 
